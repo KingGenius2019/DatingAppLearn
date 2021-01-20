@@ -1,6 +1,6 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-    "compileOnSave": false,
+  "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -17,6 +17,7 @@
     "target": "es2015",
     "module": "es2020",
     "lib": [
+      "es2019",
       "es2018",
       "dom"
     ]
