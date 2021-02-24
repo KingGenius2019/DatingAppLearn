@@ -15,6 +15,13 @@ namespace API.Controllers
 
         [Authorize]
         [HttpGet("auth")]
+        public ActionResult<string> GetSecret()
+        {
+            return "Secret Text";
+        }
+
+        [Authorize]
+        [HttpGet("auth")]
         public ActionResult<AppUser> GetNotFound()
         {
             var thing = _context.Users.Find(-1);
